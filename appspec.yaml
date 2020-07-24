@@ -5,5 +5,5 @@ Resources:
       Properties:
         TaskDefinition: <TASK_DEFINITION>
         LoadBalancerInfo:
-          ContainerName: "aws-deploy-test-web"
-          ContainerPort: 3000
+          ContainerName: "web"
+          ContainerPort: 80
